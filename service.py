@@ -21,7 +21,6 @@ def show_cart():
     cur.execute(query,data)
     products = cur.fetchall()
     if products:
-        print('ok')
         return products
     return False
 

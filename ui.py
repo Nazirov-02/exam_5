@@ -65,7 +65,6 @@ def show_all_categories():
            main()
          else:
              category = int(choice) - 1
-             print(category)
              data = show_products_by_category(products[category])
              counter = 1
              for row in data:
